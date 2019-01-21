@@ -1,0 +1,43 @@
+.topnav {
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    color: #000;
+    display: block;
+    padding: 10px; 
+}
+
+.topnav a.active{
+    color: rgb(199, 81, 81);
+}
+
+.button{
+    background-color: rgb(98, 98, 241);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.li button{
+    border-radius: 8px;
+    float: right;
+}
+
+.center{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
