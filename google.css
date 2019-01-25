@@ -17,6 +17,7 @@ li a{
     text-decoration: none;
 }
 
+/*removed but highlights active button in the top nav bar*/
 .topnav a.active{
     color: rgb(199, 81, 81);
 }
@@ -38,4 +39,13 @@ li a{
     left: 40%;
     margin-top: -50px;
     margin-left: -100px;
+}
+
+.botnav{
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: #C0C0C0;
 }
